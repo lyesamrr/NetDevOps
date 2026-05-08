@@ -1,0 +1,22 @@
+netdevops-project/
+├── README.md
+├── requirements.txt
+├── ansible/
+│   ├── playbook.yml
+│   ├── inventory/
+│   │   └── hosts.yml
+│   └── roles/
+│       └── cisco_config/
+│           └── tasks/
+│               └── main.yml
+├── scripts/
+│   ├── deploy_flash.py
+│   ├── backup_config.py
+│   └── health_scanner.py
+├── vars/
+│   ├── vlans.yml
+│   └── devices.yml
+├── templates/
+│   └── cisco_base_config.j2
+└── backups/
+    └── .gitkeep
